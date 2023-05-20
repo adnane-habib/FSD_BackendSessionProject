@@ -59,7 +59,7 @@ public class ProductsList extends HttpServlet {
 		
 		session.close();
 		out.println("</table><br><br>");
-		out.println("<a href = index.html>Back Home</a>");
+		out.println("<a href = index.jsp>Back Home</a>");
 		
 		out.println("</body></html>");	
 	}

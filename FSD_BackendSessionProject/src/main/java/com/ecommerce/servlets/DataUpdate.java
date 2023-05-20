@@ -63,7 +63,7 @@ public class DataUpdate extends HttpServlet {
         {
         	out.println("Incorrect value of price " + priceString);
         }
-		out.println("<br><br><a href = index.html>Back Home</a>");
+		out.println("<br><br><a href = index.jsp>Back Home</a>");
 }
 
 	}
